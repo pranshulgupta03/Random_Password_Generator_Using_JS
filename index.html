@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Generate a <br> <span>random password</span></h1>
+        <div class="display">
+            <input type="text" placeholder="Password" id="password">
+            <i class="ri-file-copy-line" onclick="copyPassword()"></i>
+        </div>
+        <button onclick="createPassword()"> <img src="lightning-button-icon.png">Generate Password</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
